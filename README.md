@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dark Mode template for Bootstrap 5
 
 
@@ -72,3 +73,10 @@ ___
 </table>
 
 ___
+=======
+# AutoPartsManager-WebClient
+Web client for the AutoPartsManager Java Spring REST API 
+Chosen project: Auto parts management system
+
+Tech Stack: Javascript, HTML, CSS
+>>>>>>> 0732fa34bfa591167bd7050f5a63318130048124
