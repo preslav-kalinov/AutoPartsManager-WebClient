@@ -77,6 +77,26 @@
         </tbody>
       </table>
     </div>
+
+    <div class="modal fade" id="deletePartModal" tabindex="-1" aria-labelledby="deletePartModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="deletePartModalLabel">Confirm part deletion</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="deletePartModalBody" class="modal-body"></div>
+          <div class="modal-footer">
+            <button id="deletePartModalYesButton" type="button" class="btn btn-success">
+              Yes
+            </button>
+            <button id="deletePartModalNoButton" type="button" class="btn btn-danger" data-mdb-dismiss="modal">
+              No
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <!-- Footer -->
     <footer class="text-center text-white fixed-bottom">    
