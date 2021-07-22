@@ -1,7 +1,15 @@
 function showElement(element) {
-    $(element).removeClass("visually-hidden");
+    if($(element).hasClass("visually-hidden")) {
+        $(element).removeClass("visually-hidden");
+    }
 }
 
 function hideElement(element) {
-    $(element).addClass("visually-hidden");
+    if(!$(element).hasClass("visually-hidden")) {
+        $(element).addClass("visually-hidden");
+    }
+}
+
+function quotemeta(text) {
+    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 }
