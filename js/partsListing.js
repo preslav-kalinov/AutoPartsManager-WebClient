@@ -19,7 +19,7 @@ function onPageLoaded() {
                 showElement("#addPartContainer");
                 return;
             }
-            $("#errorMessage").append("Cannot connect to server.");
+            $("#errorMessage").append("Cannot connect to server");
         }
     });
 }
@@ -60,7 +60,7 @@ function deletePart(id){
                 $("#errorMessage").append(JSON.parse(xhr.responseText).errorMessage);
                 return;
             }
-            $("#errorMessage").append("Cannot connect to server.");
+            $("#errorMessage").append("Cannot connect to server");
         }
     })
 }

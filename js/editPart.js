@@ -33,7 +33,7 @@ function showEditPartError(xhr, status, code) {
         $("#errorMessageContent").html(JSON.parse(xhr.responseText).errorMessage);
         return;
     }
-    $("#errorMessageContent").append("Cannot connect to server.");
+    $("#errorMessageContent").append("Cannot connect to server");
 }
 
 function getCarsAvailable() {
