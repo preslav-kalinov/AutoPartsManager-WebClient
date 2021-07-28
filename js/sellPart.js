@@ -1,6 +1,3 @@
-let categories;
-let cars;
-
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
